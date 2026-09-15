@@ -29,8 +29,6 @@ codebase/
     │   └── subscription_snapshot_daily.sql
     ├── bq_gld_bein/
     │   ├── vw_ott_kpi_daily.sql
-    │   ├── vw_ott_kpi_monthly.sql
-    │   └── vw_subscription_lifecycle_events.sql
     ├── bq_lnd_bein/
     │   ├── tables/
     │   │   └── opco_raw_subscribers.sql
@@ -85,6 +83,8 @@ codebase/
 ### Gold layer
 - `queries/bq_gld_bein/vw_ott_kpi_daily.sql`  
   Daily KPI view.
+
+# Future Scope
 - `queries/bq_gld_bein/vw_ott_kpi_monthly.sql`  
   Monthly KPI summary view.
 - `queries/bq_gld_bein/vw_subscription_lifecycle_events.sql`  
